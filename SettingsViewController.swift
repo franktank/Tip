@@ -2,7 +2,7 @@
 //  SettingsViewController.swift
 //  Tip
 //
-//  Created by Abby Juan on 12/5/15.
+//  Created by Franky Liang on 12/5/15.
 //  Copyright © 2015 FrankyLiang. All rights reserved.
 //
 
@@ -10,8 +10,16 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var tipPercent: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        
+        let intValue = defaults.integerForKey("defaultPercentageIndex")
+        tipPercent.selectedSegmentIndex = intValue
+        
 
         // Do any additional setup after loading the view.
     }
@@ -21,7 +29,18 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func userDefault(sender: AnyObject) {
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setInteger(tipPercent.selectedSegmentIndex, forKey:"defaultPercentageIndex")
+        defaults.synchronize()
+    }
 
+    
+    @IBAction func exitView(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

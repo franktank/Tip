@@ -14,6 +14,8 @@
 		B53CBF4E1C1275D1001B96FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53CBF4C1C1275D1001B96FC /* LaunchScreen.storyboard */; };
 		B53CBF591C1275D1001B96FC /* TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CBF581C1275D1001B96FC /* TipTests.swift */; };
 		B53CBF641C1275D1001B96FC /* TipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CBF631C1275D1001B96FC /* TipUITests.swift */; };
+		B53CBF761C1369E5001B96FC /* bluesky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B53CBF751C1369E5001B96FC /* bluesky.jpg */; };
+		B53CBF781C136CE9001B96FC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CBF771C136CE9001B96FC /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B53CBF5F1C1275D1001B96FC /* TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53CBF631C1275D1001B96FC /* TipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipUITests.swift; sourceTree = "<group>"; };
 		B53CBF651C1275D1001B96FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53CBF751C1369E5001B96FC /* bluesky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluesky.jpg; sourceTree = "<group>"; };
+		B53CBF771C136CE9001B96FC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				B53CBF431C1275D1001B96FC /* AppDelegate.swift */,
+				B53CBF771C136CE9001B96FC /* SettingsViewController.swift */,
 				B53CBF451C1275D1001B96FC /* ViewController.swift */,
 				B53CBF471C1275D1001B96FC /* Main.storyboard */,
 				B53CBF4A1C1275D1001B96FC /* Assets.xcassets */,
 				B53CBF4C1C1275D1001B96FC /* LaunchScreen.storyboard */,
+				B53CBF751C1369E5001B96FC /* bluesky.jpg */,
 				B53CBF4F1C1275D1001B96FC /* Info.plist */,
 			);
 			path = Tip;
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B53CBF4E1C1275D1001B96FC /* LaunchScreen.storyboard in Resources */,
+				B53CBF761C1369E5001B96FC /* bluesky.jpg in Resources */,
 				B53CBF4B1C1275D1001B96FC /* Assets.xcassets in Resources */,
 				B53CBF491C1275D1001B96FC /* Main.storyboard in Resources */,
 			);
@@ -258,6 +265,7 @@
 			files = (
 				B53CBF461C1275D1001B96FC /* ViewController.swift in Sources */,
 				B53CBF441C1275D1001B96FC /* AppDelegate.swift in Sources */,
+				B53CBF781C136CE9001B96FC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
