@@ -9,3 +9,5 @@ Changed background of calculator
 Remember bill amount across app restart
 Keyboard is visible when app opens - bill amount is first responder
 
+<img src="https://cloud.githubusercontent.com/assets/10643106/11614277/a9c19af2-9c0b-11e5-84e9-b9963b0336d5.gif" width="90%"></img> 
+
